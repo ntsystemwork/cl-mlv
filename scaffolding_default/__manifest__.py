@@ -10,7 +10,7 @@
     'license': 'Other OSI approved licence',
     'category': 'Tools',
     'summary': 'Customizacion para scaffolding',
-    'author': 'jeo Software',
+    'author': 'NT System Work',
     'depends': [
         'sale_management',
         'account_invoicing',
@@ -41,7 +41,7 @@
 
     'port': '8069',
     'repos': [
-        {'usr': 'jobiols', 'repo': 'cl-scaffolding', 'branch': '11.0'},
+        {'usr': 'ntsystemwork', 'repo': 'cl-scaffolding', 'branch': '11.0'},
         {'usr': 'jobiols', 'repo': 'odoo-addons', 'branch': '11.0'},
         {'usr': 'jobiols', 'repo': 'rafi16jan-backend-theme',
          'branch': '11.0'},
