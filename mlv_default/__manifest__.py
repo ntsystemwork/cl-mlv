@@ -5,11 +5,11 @@
 #
 # -----------------------------------------------------------------------------
 {
-    'name': 'scaffolding',
+    'name': 'mlv',
     'version': '11.0.0.0.0',
     'license': 'Other OSI approved licence',
     'category': 'Tools',
-    'summary': 'Customizacion para scaffolding',
+    'summary': 'Customizacion para mlv',
     'author': 'NT System Work',
     'depends': [
         # basic applications
@@ -18,10 +18,9 @@
         'purchase',
 
         # minimum modules for argentinian localizacion + utilities + fixes
-        'standard_depends',
+        'standard_depends_ce',
 
         # utilitarios adicionales
-        'backend_theme',
     ],
     'data': [
     ],
@@ -43,7 +42,7 @@
     'port': '8069',
 
     'repos': [
-        {'usr': 'ntsystemwork', 'repo': 'cl-scaffolding', 'branch': '11.0'},
+        {'usr': 'ntsystemwork', 'repo': 'cl-mlv', 'branch': '11.0'},
         {'usr': 'jobiols', 'repo': 'odoo-addons', 'branch': '11.0'},
         {'usr': 'jobiols', 'repo': 'rafi16jan-backend-theme',
          'branch': '11.0'},
